@@ -18,6 +18,6 @@ function verificaSeBotaoFoiClicado(controle) {
 function enviaClassificacao(){
     const botao = document.querySelector("[data-botao]");
     botao.addEventListener("click", function(){
-         window.location.href = "../page/congratulations.html";
+         window.location.href = "./page/congratulations.html";
     })
 }
