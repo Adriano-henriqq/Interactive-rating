@@ -1,0 +1,24 @@
+@import "../interactive-rating-component-main/style/style.css";
+
+
+.container__congratulations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container__congratulations img{
+    background-color: transparent;
+    border-radius: 0;
+
+}
+
+.container__paragrafo--congratulations{
+    color: var(--botao-envio);
+    font-size: 15px;
+    padding: .5em 1em;
+    margin-bottom: .5em;
+    border-radius: 16px;
+    background-color: var(--cinza-medio);
+}
